@@ -1,0 +1,32 @@
+.descricao{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.descricao__titulo {
+   color: var(--cor--01);
+   text-shadow: 1px 1px 5px #7ed9577a;
+   padding: 20px 0 15px 5px;
+   font-size: 1.1rem;
+   font-weight: 500;
+}
+
+.descricao__texto {
+    padding-left: 10px;
+    font-size: .8rem;
+    line-height: 15px;
+}
+
+.descricao__minitexto{
+    padding: 3px 0 30px 10px;
+    font-weight: 200;
+    font-size: .7em;
+
+}
+
+.educacao {
+    display: flex;
+    flex-direction: column;
+    
+}

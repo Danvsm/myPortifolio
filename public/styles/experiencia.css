@@ -1,0 +1,31 @@
+.experiencia {
+    background-color: var(--cor--02);
+    color: black;
+    padding-bottom: 20px;
+}
+
+.experiencia__tema {
+    text-align: center;
+    padding: 20px 0 10px;
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.252);
+}
+
+.experiencia__titulo {
+    font-weight: 600;
+    color: green;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.15);
+    font-size: 1.2rem;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.experiencia__texto {
+    letter-spacing: 1px;
+    line-height: 24px;
+    font-weight: 400;
+    padding: 5px 0  10px 10px;
+    width: 370px;
+}
+

@@ -1,0 +1,86 @@
+.pagina {
+    padding-bottom: 90px;
+}
+
+.titulos__mais{
+    display: flex;
+    gap: 10px;
+}
+
+.mais{
+    width: 15px;
+}
+
+.mais:hover{
+    fill:antiquewhite;
+}
+
+.formacoes__titulo{
+    font-size: 1.3rem;
+    padding: 10px 0;
+    
+}
+.formacoes__titulo {
+    color: var(--cor--01);
+    text-shadow: 1px 1px 7px rgba(0, 128, 0, 0.405);
+}
+
+
+.formações__ul {
+    display: flex;
+    gap: 22px; 
+    padding: 12px 0px 12px 10px;
+    
+    text-align: center;
+    
+    
+    width: 58px;
+   
+}
+
+.escolhas__lista-link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+    padding: 10px;
+    border-radius: 5px;
+   
+
+    text-decoration: none;
+    color: var(--cor--02);
+    font-size: 12px;
+    
+}
+
+.escolhas__lista-link:hover{ 
+    
+    background-color: rgba(0, 128, 0, 0.322);
+    color: rgb(8, 237, 8);
+}
+
+.lista-img {
+    width: 32px;
+    
+}
+
+.formações__cursos {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    text-align: center;
+   
+
+}
+
+.formacoes__li-cursos {
+    display: flex;
+    padding-left: 12px;
+    justify-content: space-evenly;
+    width: 70px;
+}
+
+.escolhas__lista-link > p {
+    text-transform: capitalize;
+    font-size: 12px;
+}
